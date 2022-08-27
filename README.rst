@@ -115,7 +115,7 @@ the PSF for inclusion in the documentation.
 .. _GitHub Flow: https://guides.github.com/introduction/flow/
 
 首先，`新增一個 issue <https://github.com/python/python-docs-zh-tw/issues>`_\
-，如：「翻譯 tutorial/introduction.po」，讓大家知道你正在翻譯這個檔案。
+，如：「翻譯 tutorial/introduction.po」，讓大家知道你正在翻譯這個檔案。可以使用 `make todo` 尋找需要翻譯的檔案。
 
 接著在 terminal 裡按照以下步驟：
 
@@ -132,7 +132,8 @@ the PSF for inclusion in the documentation.
 
 3. 存檔以後，執行以下列指令編譯輸出文件，以確保你的修改沒有 rST 的語法錯誤或警告 ::
 
-    make all
+    
+    all
 
    如果你還沒有執行 `維護、預覽`_ 的 clone CPython 的動作，此指令會自動幫你 clone CPython，\
    並且會使用 Sphinx 幫你檢查 rST 語法錯誤，我們盡量保持沒有 warning \
